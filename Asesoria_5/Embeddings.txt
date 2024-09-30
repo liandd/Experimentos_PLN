@@ -1,0 +1,16 @@
+
+------------svm-----------------------------------
+fit(X, y)
+Entrena el modelo SVM de acuerdo con los datos de entrenamiento proporcionados.
+
+------------tfidf----------------------------------
+transform(raw_documents)
+Transforma los documentos en una matriz documento-término.
+Usa el vocabulario y las frecuencias de documentos (df) aprendidas por fit (o fit_transform).
+
+fit_transform(raw_documents)
+Aprende el vocabulario y la idf (inversa de la frecuencia de documento) y devuelve la matriz documento-término.
+Esto es equivalente a ejecutar fit seguido de transform, pero implementado de manera más eficiente.
+
+fit(raw_documents)
+Aprende el vocabulario y la idf a partir del conjunto de entrenamiento.
