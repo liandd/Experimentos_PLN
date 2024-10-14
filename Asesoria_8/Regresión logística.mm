@@ -1,9 +1,9 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Regresión lineal" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1728371382091" STYLE="oval">
+<node TEXT="Regresión logística" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1728372168798" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" fit_to_viewport="false"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false" associatedTemplateLocation="template:/standard-1.6.mm" show_tags="UNDER_NODES"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -74,23 +74,30 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="4" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="1. Definición" POSITION="bottom_or_right" ID="ID_714001876" CREATED="1727186515879" MODIFIED="1728371427372">
+<node TEXT="1. Definción" POSITION="bottom_or_right" ID="ID_1507854033" CREATED="1728372336514" MODIFIED="1728373103663">
 <edge COLOR="#ff0000"/>
-<node TEXT="Un método estadístico para modelar la relación entre una variable dependiente y una o más variables independientes" ID="ID_1382906754" CREATED="1727186523111" MODIFIED="1727186524509">
-<node TEXT="y=mx+b" POSITION="bottom_or_right" ID="ID_1900180562" CREATED="1727186553029" MODIFIED="1727186554210"/>
+<node TEXT="Es un modelo matemático que nos ayuda a predecir si algo es sí o no" ID="ID_1983845718" CREATED="1728372369139" MODIFIED="1728372370471"/>
+<node TEXT="Función sigmoide" ID="ID_211298187" CREATED="1728372392519" MODIFIED="1728372407031">
+<node TEXT="Convierte los datos en una probabilidad entre 0 y 1" ID="ID_561183306" CREATED="1728372394298" MODIFIED="1728372412873"/>
+<node TEXT="Binaria" ID="ID_685226141" CREATED="1728372423310" MODIFIED="1728372425756">
+<node TEXT="Dos resultados" ID="ID_399571945" CREATED="1728373173080" MODIFIED="1728373183587"/>
 </node>
-<node TEXT="Algoritmo de aprendizaje supervisado" ID="ID_12064331" CREATED="1727191960499" MODIFIED="1727191989650" VSHIFT_QUANTITY="-30 pt">
-<node TEXT="Compara variables de entrada (X) y salida (Y) usando datos etiquetados" ID="ID_1631399424" CREATED="1727191994961" MODIFIED="1727191999884"/>
-<node TEXT="Encontrar relaciones entre variables" ID="ID_1929997873" CREATED="1727192013378" MODIFIED="1727192014664"/>
-<node TEXT="Predecir resultados futuros" ID="ID_357024639" CREATED="1727192022934" MODIFIED="1727192024273"/>
+<node TEXT="Multinominal" ID="ID_1050551926" CREATED="1728372427109" MODIFIED="1728372432119">
+<node TEXT="Más de dos resultados" ID="ID_1548467039" CREATED="1728373189801" MODIFIED="1728373204926"/>
 </node>
 </node>
-<node TEXT="2. Pipeline" POSITION="bottom_or_right" ID="ID_583050692" CREATED="1727186825964" MODIFIED="1728371324411">
-<edge COLOR="#00ff00"/>
-<node TEXT="Limpia los datos" ID="ID_509300152" CREATED="1727186833678" MODIFIED="1727186840830"/>
-<node TEXT="Tokeniza" ID="ID_1252566654" CREATED="1727186842143" MODIFIED="1727186846140"/>
-<node TEXT="Elimina Stop Words" ID="ID_796733255" CREATED="1727186849357" MODIFIED="1727186855343"/>
-<node TEXT="Características del Texto" POSITION="bottom_or_right" ID="ID_1221690766" CREATED="1727186760599" MODIFIED="1728371711410">
+<node TEXT="Funcion de costo" ID="ID_631466503" CREATED="1728373326541" MODIFIED="1728373330104"/>
+<node TEXT="Error cuadratico medio" ID="ID_301952473" CREATED="1728373331475" MODIFIED="1728373336632"/>
+<node TEXT="Asume una relación lineal entre las variables" ID="ID_1257759646" CREATED="1728373436699" MODIFIED="1728373440209">
+<node TEXT="Si no puede, usa transformadores" ID="ID_1391486581" CREATED="1728373448919" MODIFIED="1728373460919"/>
+</node>
+</node>
+<node TEXT="2. Pipeline" POSITION="bottom_or_right" ID="ID_723399632" CREATED="1728372340368" MODIFIED="1728372346337">
+<edge COLOR="#0000ff"/>
+<node TEXT="Limpieza de datos" ID="ID_1007907255" CREATED="1728372445374" MODIFIED="1728372452492"/>
+<node TEXT="Tokeniza" ID="ID_1749026625" CREATED="1728372452773" MODIFIED="1728372458193"/>
+<node TEXT="Eliminación de Stopwords" ID="ID_115856437" CREATED="1728372460747" MODIFIED="1728372468223"/>
+<node TEXT="Características del Texto" POSITION="bottom_or_right" ID="ID_1221690766" CREATED="1727186760599" MODIFIED="1728372516382">
 <node TEXT="Contar vectores" ID="ID_1550848219" CREATED="1727186782752" MODIFIED="1727186796644">
 <node TEXT="Cálculos más rápidos y fáciles" ID="ID_1743179032" CREATED="1728371273196" MODIFIED="1728371292454"/>
 </node>
@@ -99,12 +106,14 @@
 <node TEXT="Word2vec" ID="ID_1672720821" CREATED="1727186810640" MODIFIED="1727186813228"/>
 </node>
 </node>
+<node TEXT="Aprende de ejemplos anteriores" ID="ID_490907135" CREATED="1728372543425" MODIFIED="1728372571136"/>
+<node TEXT="Usa lo que aprendió para predecir" ID="ID_530341295" CREATED="1728372576655" MODIFIED="1728372595177"/>
 </node>
-<node TEXT="3.Entrenamiento" POSITION="bottom_or_right" ID="ID_644374005" CREATED="1727186881349" MODIFIED="1728371368031">
-<edge COLOR="#ff00ff"/>
-<node TEXT="División del dataset (entrenamiento, validación, prueba)" ID="ID_1224741651" CREATED="1727186889876" MODIFIED="1727186902733"/>
-<node TEXT="Métodos de optimización (gradient descent)" ID="ID_1792668167" CREATED="1727186909143" MODIFIED="1727186910702"/>
-<node TEXT="Evaluación del modelo" ID="ID_369392226" CREATED="1727186917579" MODIFIED="1727188806900"/>
+<node TEXT="3. Evaluación" POSITION="bottom_or_right" ID="ID_164243446" CREATED="1728372347771" MODIFIED="1728373107430">
+<edge COLOR="#00ff00"/>
+<node TEXT="Matriz de Confusión" ID="ID_557513349" CREATED="1728372606720" MODIFIED="1728372611839"/>
+<node TEXT="AUC-ROC" ID="ID_496540445" CREATED="1728372612216" MODIFIED="1728372617983"/>
+<node TEXT="Precisión, Recall, F1-Score" ID="ID_820265292" CREATED="1728372618123" MODIFIED="1728372619284"/>
 </node>
 </node>
 </map>

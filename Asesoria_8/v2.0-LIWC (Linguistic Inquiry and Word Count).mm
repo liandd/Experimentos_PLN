@@ -1,8 +1,8 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Regresión lineal" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1728371382091" STYLE="oval">
+<node TEXT="LIWC (Linguistic Inquiry and Word Count)" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1727791502149" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle">
+<hook NAME="MapStyle" zoom="1.1">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" fit_to_viewport="false"/>
     <tags category_separator="::"/>
 
@@ -74,37 +74,47 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="4" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="1. Definición" POSITION="bottom_or_right" ID="ID_714001876" CREATED="1727186515879" MODIFIED="1728371427372">
+<node TEXT="1. Definición" POSITION="bottom_or_right" ID="ID_1971112504" CREATED="1727211116779" MODIFIED="1727215100456">
 <edge COLOR="#ff0000"/>
-<node TEXT="Un método estadístico para modelar la relación entre una variable dependiente y una o más variables independientes" ID="ID_1382906754" CREATED="1727186523111" MODIFIED="1727186524509">
-<node TEXT="y=mx+b" POSITION="bottom_or_right" ID="ID_1900180562" CREATED="1727186553029" MODIFIED="1727186554210"/>
-</node>
-<node TEXT="Algoritmo de aprendizaje supervisado" ID="ID_12064331" CREATED="1727191960499" MODIFIED="1727191989650" VSHIFT_QUANTITY="-30 pt">
-<node TEXT="Compara variables de entrada (X) y salida (Y) usando datos etiquetados" ID="ID_1631399424" CREATED="1727191994961" MODIFIED="1727191999884"/>
-<node TEXT="Encontrar relaciones entre variables" ID="ID_1929997873" CREATED="1727192013378" MODIFIED="1727192014664"/>
-<node TEXT="Predecir resultados futuros" ID="ID_357024639" CREATED="1727192022934" MODIFIED="1727192024273"/>
+<node TEXT="Analiza cadenas para estudiar el contenido psicológico y emocional de las palabras utilizadas." ID="ID_670518456" CREATED="1727211122492" MODIFIED="1727791169136"/>
+<node TEXT="Mide cómo las personas muestran a través del lenguaje." ID="ID_1118671400" CREATED="1727211163426" MODIFIED="1727791189926">
+<node TEXT="Emociones" ID="ID_836426068" CREATED="1727211198319" MODIFIED="1727211206622"/>
+<node TEXT="Sentimientos" ID="ID_1709251809" CREATED="1727211208206" MODIFIED="1727211217670"/>
+<node TEXT="Pensamientos" ID="ID_1591449562" CREATED="1727211219274" MODIFIED="1727211225970"/>
 </node>
 </node>
-<node TEXT="2. Pipeline" POSITION="bottom_or_right" ID="ID_583050692" CREATED="1727186825964" MODIFIED="1728371324411">
+<node TEXT="2. Categoriza" POSITION="bottom_or_right" ID="ID_1604517575" CREATED="1727211238287" MODIFIED="1727211247773">
+<edge COLOR="#0000ff"/>
+<node TEXT="Usa un diccionario predefinido de palabras." ID="ID_1179896569" CREATED="1727211261104" MODIFIED="1727791238756"/>
+<node TEXT="Cuenta cuántas veces una palabra aparece por categoría." ID="ID_1699301507" CREATED="1727211278916" MODIFIED="1727791261684">
+<node TEXT="Categorías" ID="ID_721663174" CREATED="1727211294533" MODIFIED="1727791271754">
+<node TEXT="1. Emociones" ID="ID_600275818" CREATED="1727211303349" MODIFIED="1727211309896"/>
+<node TEXT="2. Proceso Cognitivo" ID="ID_1518062688" CREATED="1727211311019" MODIFIED="1727211316607"/>
+<node TEXT="3.Pronombres" ID="ID_645640173" CREATED="1727211317442" MODIFIED="1727211324091"/>
+<node TEXT="4.Social" ID="ID_384991226" CREATED="1727211324877" MODIFIED="1727211330338"/>
+<node TEXT="5. Estilo del lenguaje" ID="ID_828227117" CREATED="1727211331156" MODIFIED="1727211339623"/>
+</node>
+</node>
+</node>
+<node TEXT="3. Usos" POSITION="bottom_or_right" ID="ID_1838880148" CREATED="1727211354432" MODIFIED="1727791502148" VSHIFT_QUANTITY="-4.5 pt">
 <edge COLOR="#00ff00"/>
-<node TEXT="Limpia los datos" ID="ID_509300152" CREATED="1727186833678" MODIFIED="1727186840830"/>
-<node TEXT="Tokeniza" ID="ID_1252566654" CREATED="1727186842143" MODIFIED="1727186846140"/>
-<node TEXT="Elimina Stop Words" ID="ID_796733255" CREATED="1727186849357" MODIFIED="1727186855343"/>
-<node TEXT="Características del Texto" POSITION="bottom_or_right" ID="ID_1221690766" CREATED="1727186760599" MODIFIED="1728371711410">
-<node TEXT="Contar vectores" ID="ID_1550848219" CREATED="1727186782752" MODIFIED="1727186796644">
-<node TEXT="Cálculos más rápidos y fáciles" ID="ID_1743179032" CREATED="1728371273196" MODIFIED="1728371292454"/>
-</node>
-<node TEXT="tfidf" ID="ID_1492233953" CREATED="1727186797978" MODIFIED="1727186803215"/>
-<node TEXT="Embeddings" ID="ID_1675597148" CREATED="1727186806745" MODIFIED="1727186810477">
-<node TEXT="Word2vec" ID="ID_1672720821" CREATED="1727186810640" MODIFIED="1727186813228"/>
+<node TEXT="En grandes volúmenes de datos como Twitter, Reddit." ID="ID_504699884" CREATED="1727211369198" MODIFIED="1727791343832">
+<node TEXT="Analiza" ID="ID_1627464393" CREATED="1727211396392" MODIFIED="1727211404586">
+<node TEXT="Patrones de comportamiento" ID="ID_956182384" CREATED="1727211405163" MODIFIED="1727211449646"/>
+<node TEXT="Comportamiento" ID="ID_228147300" CREATED="1727211411577" MODIFIED="1727211415767"/>
+<node TEXT="Emociones" ID="ID_1169278088" CREATED="1727211417428" MODIFIED="1727211419752"/>
+<node TEXT="Salud mental" ID="ID_87099865" CREATED="1727791492606" MODIFIED="1727791497787"/>
 </node>
 </node>
 </node>
-<node TEXT="3.Entrenamiento" POSITION="bottom_or_right" ID="ID_644374005" CREATED="1727186881349" MODIFIED="1728371368031">
+<node TEXT="4. Cómo se usa" POSITION="bottom_or_right" ID="ID_439169771" CREATED="1727791018175" MODIFIED="1727791380558">
 <edge COLOR="#ff00ff"/>
-<node TEXT="División del dataset (entrenamiento, validación, prueba)" ID="ID_1224741651" CREATED="1727186889876" MODIFIED="1727186902733"/>
-<node TEXT="Métodos de optimización (gradient descent)" ID="ID_1792668167" CREATED="1727186909143" MODIFIED="1727186910702"/>
-<node TEXT="Evaluación del modelo" ID="ID_369392226" CREATED="1727186917579" MODIFIED="1727188806900"/>
+<node TEXT="Es una aplicación de pago" ID="ID_640781789" CREATED="1727791029744" MODIFIED="1727791390794">
+<node TEXT="Requiere licencia" ID="ID_1032583946" CREATED="1727792361682" MODIFIED="1727792370289"/>
+</node>
+<node TEXT="Tiene proyectos comunitarios para su uso en Python" ID="ID_404079249" CREATED="1727791053190" MODIFIED="1727791402954">
+<node TEXT="No son buenos proyectos" ID="ID_843328895" CREATED="1727791079400" MODIFIED="1727791087611"/>
+</node>
 </node>
 </node>
 </map>

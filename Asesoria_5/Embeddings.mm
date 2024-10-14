@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Embeddings" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1726436573186" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="2.0">
+<hook NAME="MapStyle">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" fit_to_viewport="false"/>
     <tags category_separator="::"/>
 
@@ -74,12 +74,12 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="8" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="1. Defincion" POSITION="bottom_or_right" ID="ID_1227176737" CREATED="1726436595926" MODIFIED="1726436601294">
+<node TEXT="1. Definción" POSITION="bottom_or_right" ID="ID_1227176737" CREATED="1726436595926" MODIFIED="1727791676117">
 <edge COLOR="#ff0000"/>
-<node TEXT="Transformar texto a forma numerica para usarse en PLN" ID="ID_1463250221" CREATED="1726441340803" MODIFIED="1726442384732">
-<node TEXT="Texto crudo, limpia, tokeniza, representar numericamente" ID="ID_1892213568" CREATED="1726442411480" MODIFIED="1727182067192"/>
+<node TEXT="Transformar texto a forma numérica para usarse en PLN" ID="ID_1463250221" CREATED="1726441340803" MODIFIED="1727791702062">
+<node TEXT="Texto crudo, limpia, tokeniza, representar numéricamente" ID="ID_1892213568" CREATED="1726442411480" MODIFIED="1727791720791"/>
 <node TEXT="Feature Selection Using TF-IDF" ID="ID_246564269" CREATED="1727209304190" MODIFIED="1727209312037">
-<node TEXT="Tomar las palabras mas importantes para reducir el vector" ID="ID_1833155" CREATED="1727209313726" MODIFIED="1727209341836"/>
+<node TEXT="Tomar las palabras más importantes para reducir el vector" ID="ID_1833155" CREATED="1727209313726" MODIFIED="1727791735739"/>
 </node>
 </node>
 </node>
@@ -100,8 +100,8 @@
 </node>
 <node TEXT="3. Bloques de lenguaje" POSITION="bottom_or_right" ID="ID_1873619214" CREATED="1726436638182" MODIFIED="1727179392795">
 <edge COLOR="#ff00ff"/>
-<node TEXT="Sistema estructurado de comunicacion que involucra combinaciones complejas de sus componentes constituyentes" ID="ID_717194802" CREATED="1727179500455" MODIFIED="1727179704525">
-<node TEXT="Caracteristicas" ID="ID_1635033176" CREATED="1727179705310" MODIFIED="1727179713937"/>
+<node TEXT="Sistema estructurado de comunicación que involucra combinaciones complejas de sus componentes constituyentes" ID="ID_717194802" CREATED="1727179500455" MODIFIED="1727791802757">
+<node TEXT="Características" ID="ID_1635033176" CREATED="1727179705310" MODIFIED="1727791817685"/>
 <node TEXT="Palabras" ID="ID_969758964" CREATED="1727179715521" MODIFIED="1727179719863"/>
 <node TEXT="Oraciones" ID="ID_1307118310" CREATED="1727179727716" MODIFIED="1727179730681"/>
 </node>
@@ -125,8 +125,8 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Representacion distributiva" ID="ID_560899512" CREATED="1726443367992" MODIFIED="1726443400700">
-<node TEXT="Distribucion basada en contexto que aparecen" ID="ID_1817702487" CREATED="1726443421926" MODIFIED="1726443437223"/>
+<node TEXT="Representación distributiva" ID="ID_560899512" CREATED="1726443367992" MODIFIED="1727792337478">
+<node TEXT="Distribución basada en contexto que aparecen" ID="ID_1817702487" CREATED="1726443421926" MODIFIED="1727792332785"/>
 </node>
 <node TEXT="Representacion distribuida" ID="ID_689107676" CREATED="1726443377741" MODIFIED="1726443394413">
 <node TEXT="Se basa en" ID="ID_660025986" CREATED="1726443447492" MODIFIED="1726443450852">
@@ -135,15 +135,15 @@
 </node>
 </node>
 </node>
-<node TEXT="embeddings preservan información semántica y sintáctica" POSITION="bottom_or_right" ID="ID_1603756356" CREATED="1727181293162" MODIFIED="1727181301726"/>
+<node TEXT="Embeddings preservan información semántica y sintáctica" POSITION="bottom_or_right" ID="ID_1603756356" CREATED="1727181293162" MODIFIED="1727792316248"/>
 </node>
 <node TEXT="5. Desafios" POSITION="bottom_or_right" ID="ID_1839285201" CREATED="1726436677865" MODIFIED="1726443917252">
 <edge COLOR="#00007c"/>
 <node TEXT="Word2vec es falta de contexto" ID="ID_962623785" CREATED="1726441720848" MODIFIED="1727026474115"/>
 <node TEXT="OOV (Out of Vocabulary)" ID="ID_1621224418" CREATED="1726441735036" MODIFIED="1726441736111">
-<node TEXT="Embeddings bien entrenados pueden captar el significado de palabras fuera del vocabulario (out-of-vocabulary)." POSITION="bottom_or_right" ID="ID_1944264549" CREATED="1726441693837" MODIFIED="1726441695032"/>
+<node TEXT="Embeddings bien entrenados pueden captar el significado de palabras fuera del vocabulario (out-of-vocabulary)" POSITION="bottom_or_right" ID="ID_1944264549" CREATED="1726441693837" MODIFIED="1727792305492"/>
 </node>
-<node TEXT="métodos tradicionales como Bag of Words, CountVectorizer y TF-IDF no capturan información semántica" ID="ID_101174634" CREATED="1727181343378" MODIFIED="1727188722928"/>
+<node TEXT="Métodos tradicionales como Bag of Words, CountVectorizer y TF-IDF no capturan información semántica" ID="ID_101174634" CREATED="1727181343378" MODIFIED="1727791840744"/>
 </node>
 </node>
 </map>
