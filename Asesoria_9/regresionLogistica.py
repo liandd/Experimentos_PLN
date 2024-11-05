@@ -18,17 +18,17 @@ for sub in reddit.subreddit("SuicideWatch").hot(limit=102):
         post.append(sub.title + " " + sub.selftext)
 
 labels = [0] * 50 + [1] * 50
-
+print(labels)
 tfidf = TfidfVectorizer()
 a_train = tfidf.fit_transform(post)
 
-logreg_model = LogisticRegression()
-logreg_model.fit(a_train, labels)
+model = LogisticRegression()
+model.fit(a_train, labels)
 
 while True:
     input_str = input("input:")
     b_test = tfidf.transform([input_str])
-    puntuacion = logreg_model.decision_function(b_test)  # Obtener los logits
+    puntuacion = model.decision_function(b_test)  # Obtener los logits
 
     # Aplicar función sigmoide
     probabilidad = sigmoide(puntuacion)

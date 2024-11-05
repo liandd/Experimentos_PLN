@@ -2,8 +2,8 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Kernel Regresion lineal" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1728942280192" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false" associatedTemplateLocation="template:/standard-1.6.mm" show_tags="UNDER_NODES"/>
+<hook NAME="MapStyle" zoom="1.5">
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" fit_to_viewport="false"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -74,18 +74,18 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="3" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="1. Definicion" POSITION="bottom_or_right" ID="ID_184605956" CREATED="1728942281796" MODIFIED="1728942287426">
+<node TEXT="1. Definición" POSITION="bottom_or_right" ID="ID_184605956" CREATED="1728942281796" MODIFIED="1729079316963">
 <edge COLOR="#ff0000"/>
 <node TEXT="Técnica supervisada que modela la relación entre una variable dependiente y una o más variables independientes utilizando una línea recta" ID="ID_1970830659" CREATED="1728942320099" MODIFIED="1728942337191"/>
 <node TEXT="Utiliza un ajuste en la linea para separar datos" ID="ID_75750078" CREATED="1728944199021" MODIFIED="1728944368642"/>
 </node>
 <node TEXT="2. Pipeline" POSITION="bottom_or_right" ID="ID_1883644411" CREATED="1728942289261" MODIFIED="1728942294587">
 <edge COLOR="#0000ff"/>
-<node TEXT="Recolección de datos y preprocesamiento (eliminación de valores atípicos, normalización)" ID="ID_1373448620" CREATED="1728942348664" MODIFIED="1728942349640"/>
+<node TEXT="Recolección de datos y preprocesamiento" ID="ID_1373448620" CREATED="1728942348664" MODIFIED="1729088356131"/>
 <node TEXT="División de los datos en conjuntos de entrenamiento y prueba" ID="ID_1101473310" CREATED="1728942354589" MODIFIED="1728942355390"/>
 <node TEXT="Predicción y evaluación de los resultados" ID="ID_402248447" CREATED="1728942372034" MODIFIED="1728942372939"/>
 </node>
-<node TEXT="3. Evaluacion" POSITION="bottom_or_right" ID="ID_1583286443" CREATED="1728942295806" MODIFIED="1728942304078">
+<node TEXT="3. Evaluación" POSITION="bottom_or_right" ID="ID_1583286443" CREATED="1728942295806" MODIFIED="1729079318590">
 <edge COLOR="#00ff00"/>
 <node TEXT="MSE (Mean Squared Error)" ID="ID_1586623776" CREATED="1728942382697" MODIFIED="1728942383564">
 <node TEXT="Mide el promedio de los cuadrados de los errores" ID="ID_1898630261" CREATED="1728942403741" MODIFIED="1728942405017"/>

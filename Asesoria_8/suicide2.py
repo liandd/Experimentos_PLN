@@ -11,7 +11,7 @@ reddit = praw.Reddit(
 
 print(reddit.read_only)
 for sub in reddit.subreddit("SuicideWatch").hot(limit=10):
-    print(sub.title)
+    print(sub.selftext)
 
 post = []
 for sub in reddit.subreddit("SuicideWatch").hot(limit=102):  # Ahora 100 posts

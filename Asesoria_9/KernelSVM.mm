@@ -2,8 +2,8 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="KernelSVM" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1728941470720" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false" associatedTemplateLocation="template:/standard-1.6.mm" show_tags="UNDER_NODES"/>
+<hook NAME="MapStyle" zoom="1.5">
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" fit_to_viewport="false"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -93,12 +93,12 @@
 <node TEXT="Cuando hay relaciones no lineales entre características" ID="ID_754660735" CREATED="1728934818029" MODIFIED="1728934819047"/>
 <node TEXT="Puede ser más costoso computacionalmente" ID="ID_567965015" CREATED="1728934825085" MODIFIED="1728934825873"/>
 </node>
-<node TEXT="RBF Kernel" ID="ID_1765322182" CREATED="1728934686093" MODIFIED="1728941269592" HGAP_QUANTITY="125.75 pt" VSHIFT_QUANTITY="-1.5 pt">
+<node TEXT="RBF Kernel" ID="ID_1765322182" CREATED="1728934686093" MODIFIED="1729087941269" HGAP_QUANTITY="91.25 pt" VSHIFT_QUANTITY="-1.5 pt">
 <node TEXT="Función gaussiana para crear un hiperplano en un espacio dimensional más alto" ID="ID_1881564550" CREATED="1728935215949" MODIFIED="1728941283756" HGAP_QUANTITY="16.25 pt"/>
 <node TEXT="Para datos no lineales" ID="ID_272604371" CREATED="1728935224730" MODIFIED="1728941282221" HGAP_QUANTITY="17.75 pt" VSHIFT_QUANTITY="-2.25 pt"/>
 <node TEXT="El kernel más popular por su flexibilidad" ID="ID_1849365005" CREATED="1728935235251" MODIFIED="1728941281257" HGAP_QUANTITY="20 pt" VSHIFT_QUANTITY="-3.75 pt"/>
 </node>
-<node TEXT="Sigmoide Kernel" ID="ID_1935149065" CREATED="1728934704880" MODIFIED="1728941292190" HGAP_QUANTITY="43.25 pt" VSHIFT_QUANTITY="-39 pt">
+<node TEXT="Sigmoide Kernel" ID="ID_1935149065" CREATED="1728934704880" MODIFIED="1729087945425" HGAP_QUANTITY="68.75 pt" VSHIFT_QUANTITY="-30.75 pt">
 <node TEXT="Se asemeja a una red neuronal" ID="ID_1989919386" CREATED="1728935405345" MODIFIED="1728935413218"/>
 <node TEXT="Cuando se quiere aproximar el comportamiento de una red neuronal" ID="ID_1294458653" CREATED="1728935413365" MODIFIED="1728935414332"/>
 <node TEXT="Menos común en comparación con RBF" ID="ID_512150476" CREATED="1728935420732" MODIFIED="1728935421704"/>

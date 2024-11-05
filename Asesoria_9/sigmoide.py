@@ -12,9 +12,9 @@ def predecir_sentimiento(puntuacion):
         return "Sentimiento negativo", probabilidad
 
 
-puntuacion_nlp = 1.2
+puntuacion = 1.2
 
-resultado, probabilidad = predecir_sentimiento(puntuacion_nlp)
+resultado, probabilidad = predecir_sentimiento(puntuacion)
 
 print(f"Resultado: {resultado}")
 print(f"Probabilidad: {probabilidad}")

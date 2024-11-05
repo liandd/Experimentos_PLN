@@ -2,8 +2,8 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Bayes" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1728952394891" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false" associatedTemplateLocation="template:/standard-1.6.mm" show_tags="UNDER_NODES"/>
+<hook NAME="MapStyle" zoom="1.5">
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" fit_to_viewport="false"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -74,7 +74,7 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="3" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="1.Definicion" POSITION="bottom_or_right" ID="ID_721545416" CREATED="1728952396592" MODIFIED="1728952400694">
+<node TEXT="1.Definición" POSITION="bottom_or_right" ID="ID_721545416" CREATED="1728952396592" MODIFIED="1729079700910">
 <edge COLOR="#ff0000"/>
 <node TEXT="Asume que las características son independientes entre sí dado el resultado" ID="ID_51828389" CREATED="1728952433767" MODIFIED="1728952436655"/>
 <node TEXT="Clasificación de texto" ID="ID_503242993" CREATED="1728952464982" MODIFIED="1728952469271">
@@ -163,11 +163,11 @@
 </node>
 </node>
 </node>
-<node TEXT="3. Evaluacion" POSITION="bottom_or_right" ID="ID_181209384" CREATED="1728952406959" MODIFIED="1728952415633">
+<node TEXT="3. Evaluación" POSITION="bottom_or_right" ID="ID_181209384" CREATED="1728952406959" MODIFIED="1729079703149">
 <edge COLOR="#00ff00"/>
 <node TEXT="Matriz de Confusión" ID="ID_557513349" CREATED="1728372606720" MODIFIED="1728372611839"/>
 <node TEXT="AUC-ROC" ID="ID_496540445" CREATED="1728372612216" MODIFIED="1728372617983"/>
-<node TEXT="Precisión, Recall, F1-Score" ID="ID_820265292" CREATED="1728372618123" MODIFIED="1728372619284"/>
+<node TEXT="Precision, Recall, F1-Score" ID="ID_820265292" CREATED="1728372618123" MODIFIED="1729079953267"/>
 </node>
 </node>
 </map>

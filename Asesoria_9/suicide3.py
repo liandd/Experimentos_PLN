@@ -22,7 +22,7 @@ labels = [0] * 50 + [1] * 50
 tfidf = TfidfVectorizer()
 a_train = tfidf.fit_transform(post)
 
-svm_model = SVC(kernel='linear', probability=True)  #'probability=True' para obtener probabilidades
+svm_model = SVC(probability=True)  #'probability=True' para obtener probabilidades
 svm_model.fit(a_train, labels)
 
 while True:
