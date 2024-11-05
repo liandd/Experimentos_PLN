@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Métodos" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1730797212667" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.5">
+<hook NAME="MapStyle" zoom="0.5">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" fit_to_viewport="false"/>
     <tags category_separator="::"/>
 
@@ -297,7 +297,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Decision Tree" POSITION="bottom_or_right" ID="ID_765655765" CREATED="1730797202155" MODIFIED="1730797223815">
+<node TEXT="5. Decision Tree" POSITION="bottom_or_right" ID="ID_765655765" CREATED="1730797202155" MODIFIED="1730823013075">
 <edge COLOR="#7c007c"/>
 <node TEXT="1. Definición" POSITION="bottom_or_right" ID="ID_568640757" CREATED="1730786560288" MODIFIED="1730797226632">
 <node TEXT="Algoritmo Supervisado de ML" ID="ID_1930827500" CREATED="1730786565884" MODIFIED="1730796105197"/>
