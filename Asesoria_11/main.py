@@ -6,7 +6,7 @@ from Prueba import Prueba
 import warnings
 warnings.filterwarnings('ignore')
 
-data = pd.read_csv("Libro3.csv", delimiter=';')
+data = pd.read_csv("Dataset_es.csv", delimiter=';')
 X = data['Ideas']
 y = data['Tag']
 
