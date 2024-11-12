@@ -27,28 +27,16 @@ def ejecutar():
         print(f"\nEntrenamiento y prueba con SVM - kernel={kernel}")
         modelo_svm = entrenamiento.entrenar_svm(kernel, probability)
         modelos_svm[kernel] = modelo_svm
-        reporte_svm = prueba.probar_svm(modelo_svm)
-        print(f"Reporte de clasificación para SVM (kernel={kernel}):")
-        print(reporte_svm[['precision', 'recall', 'f1-score']])
 
     # Entrenar modelos
     print("\nEntrenamiento y prueba con Regresión Logística")
     modelo_logistica = entrenamiento.entrenar_regresion_logistica()
-    reporte_logistica = prueba.probar_regresion_logistica(modelo_logistica)
-    print("Reporte de clasificación para Regresión Logística:")
-    print(reporte_logistica[['precision', 'recall', 'f1-score']])
 
     print("\nEntrenamiento y prueba con Naive Bayes")
     modelo_bayes = entrenamiento.entrenar_bayes()
-    reporte_bayes = prueba.probar_bayes(modelo_bayes)
-    print("Reporte de clasificación para Naive Bayes:")
-    print(reporte_bayes[['precision', 'recall', 'f1-score']])
 
     print("\nEntrenamiento y prueba con Árbol de Decisión")
     modelo_decision_tree = entrenamiento.entrenar_decision_tree(max_depth=100)
-    reporte_decision_tree = prueba.probar_decision_tree(modelo_decision_tree)
-    print("Reporte de clasificación para Árbol de Decisión:")
-    print(reporte_decision_tree[['precision', 'recall', 'f1-score']])
 
     while True:
         input_text = input("Input: ")
