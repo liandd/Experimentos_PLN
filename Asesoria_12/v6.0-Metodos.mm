@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Métodos" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1730797212667" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="0.5">
+<hook NAME="MapStyle" zoom="1.21">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" fit_to_viewport="false"/>
     <tags category_separator="::"/>
 
@@ -73,7 +73,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="9" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="10" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="3. Regresión logística" POSITION="bottom_or_right" ID="ID_1165336665" CREATED="1728372701324" MODIFIED="1728952730749" HGAP_QUANTITY="5.75 pt" VSHIFT_QUANTITY="66 pt">
 <edge COLOR="#0000ff"/>
 <node TEXT="1. Definción" POSITION="top_or_left" ID="ID_1507854033" CREATED="1728372336514" MODIFIED="1728373047036">
@@ -324,6 +324,9 @@
 <node TEXT="Matriz de Confusión" POSITION="bottom_or_right" ID="ID_1594832349" CREATED="1728372606720" MODIFIED="1728372611839"/>
 <node TEXT="Precision, Recall, F1-Score" POSITION="bottom_or_right" ID="ID_457362706" CREATED="1728372618123" MODIFIED="1729080071976"/>
 </node>
+</node>
+<node TEXT="6. RNN" POSITION="top_or_left" ID="ID_1077246942" CREATED="1731435698787" MODIFIED="1731435703689">
+<edge COLOR="#007c7c"/>
 </node>
 </node>
 </map>
