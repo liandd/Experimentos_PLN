@@ -3,7 +3,7 @@
 <node TEXT="Graph Attention Networks for Mental Disorder Detection" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1740028692402" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false" associatedTemplateLocation="template:/standard-1.6.mm" show_tags="UNDER_NODES" showTagCategories="false" show_icon_for_attributes="true" show_note_icons="true"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -74,16 +74,20 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="3" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="1. Definiciones" POSITION="bottom_or_right" ID="ID_1549318120" CREATED="1740027916851" MODIFIED="1740028694089" HGAP_QUANTITY="-194.49999 pt" VSHIFT_QUANTITY="-72.75 pt">
+<node TEXT="1. Introducción" POSITION="bottom_or_right" ID="ID_1549318120" CREATED="1740027916851" MODIFIED="1741292127726" HGAP_QUANTITY="-194.49999 pt" VSHIFT_QUANTITY="-72.75 pt">
 <edge COLOR="#ff0000"/>
 <node TEXT="Uso de Graph Attention Networks (GATs) para detectar depresión en redes sociales." ID="ID_626821420" CREATED="1740028190801" MODIFIED="1740028192187"/>
 <node TEXT="Se analizan textos de Reddit y otras plataformas." ID="ID_1903880837" CREATED="1740028199417" MODIFIED="1740028200558"/>
 <node TEXT="El modelo expande el léxico con WordNet y asigna pesos a palabras clave." ID="ID_388661618" CREATED="1740028206225" MODIFIED="1740028207269"/>
 </node>
-<node TEXT="2. Metodología" POSITION="top_or_left" ID="ID_1564020112" CREATED="1740027946001" MODIFIED="1740027955664">
+<node TEXT="2. Método" POSITION="top_or_left" ID="ID_1564020112" CREATED="1740027946001" MODIFIED="1740682036098">
 <edge COLOR="#0000ff"/>
 <node TEXT="Recopilación y preprocesamiento" ID="ID_976412923" CREATED="1740028219682" MODIFIED="1740028221371">
-<node TEXT="Datos de Reddit (subreddit de Depresión)." ID="ID_1918027606" CREATED="1740028233306" MODIFIED="1740028234450"/>
+<node TEXT="Datos de Reddit (subreddit de Depresión)." ID="ID_1918027606" CREATED="1740028233306" MODIFIED="1740624680236">
+<node TEXT="corpora eRisk 2018 DATASET" ID="ID_1418716921" CREATED="1740624645428" MODIFIED="1740624680235" HGAP_QUANTITY="-216.99999 pt" VSHIFT_QUANTITY="-40.5 pt">
+<node TEXT="Problema de desequilibrio, donde una clase tiene muchas más instancias que la otra" ID="ID_851449886" CREATED="1740624671083" MODIFIED="1741191988573" HGAP_QUANTITY="-168.24999 pt" VSHIFT_QUANTITY="-31.5 pt"/>
+</node>
+</node>
 <node TEXT="Conversión a UTF-8, eliminación de símbolos, slangs y abreviaciones." ID="ID_791564505" CREATED="1740028239529" MODIFIED="1740028241310"/>
 </node>
 <node TEXT="Creación de Embeddings" ID="ID_1201386613" CREATED="1740028247377" MODIFIED="1740028248479">
@@ -121,7 +125,14 @@
 <node TEXT="Mejora la identificación de síntomas depresivos en redes sociales" ID="ID_830722528" CREATED="1740028407201" MODIFIED="1740028408427"/>
 <node TEXT="Uso de hiperónimos y GloVe mejora la precisión del modelo. En expandir el Léxico." ID="ID_1138894731" CREATED="1740028409056" MODIFIED="1740028433720"/>
 <node TEXT="Mayor interpretabilidad y capacidad de detectar relaciones entre palabras sobre RNN." ID="ID_1972598098" CREATED="1740028443368" MODIFIED="1740028450146"/>
-<node TEXT="Se usa AUC-ROC para medir la efectividad del clasificador." ID="ID_1794410984" CREATED="1740028456953" MODIFIED="1740028459137"/>
+<node TEXT="Se usa AUC-ROC para medir la efectividad del clasificador 0.91." ID="ID_1794410984" CREATED="1740028456953" MODIFIED="1740682081666"/>
+<node TEXT="Métricas" ID="ID_1362708829" CREATED="1740624711996" MODIFIED="1740624715336">
+<node TEXT="F1 de 0.90 expandiendo léxico, 0.82 sin expansión" ID="ID_129432187" CREATED="1740624715555" MODIFIED="1741193694115"/>
+<node TEXT="Precision 0.89" ID="ID_1102941126" CREATED="1740624735796" MODIFIED="1740624740998"/>
+<node TEXT="Recall  0.90" ID="ID_897068275" CREATED="1740624753027" MODIFIED="1740624756071"/>
+<node TEXT="F-value 0.87" ID="ID_1845270786" CREATED="1741191948713" MODIFIED="1741191957551"/>
+<node TEXT="Muy costoso computacionalmente" ID="ID_1891817930" CREATED="1741191962031" MODIFIED="1741191975322"/>
+</node>
 </node>
 </node>
 </map>
